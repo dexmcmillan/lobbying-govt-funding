@@ -6,6 +6,7 @@ import numpy as np
 ## Run > python3 analysis.py
 ## Watch the magic happen!
 
+## This just sets the format for numbers so it doesn't default to scientific.
 pd.options.display.float_format = '${:,.2f}'.format
 
 ## Load in files containing raw data from the govt registry, one with govt funding amounts and the other with company names.
